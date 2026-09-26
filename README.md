@@ -1,6 +1,6 @@
 # HTML inside WebGPU demo
 
-A tiny demo for the article **“HTML Inside WebGPU Sounds Wrong. That Is Why It Is Interesting.”**
+A tiny demo for the article [**HTML inside WebGPU sounds wrong. That is why it is interesting.**](https://constantinchirila.com/notes/html-inside-webgpu-sounds-wrong)
 
 The yellow card is real DOM inside a `<canvas content="drawable">`. Chromium records a snapshot of that DOM. The demo copies the snapshot into a WebGPU texture with `GPUQueue.drawElementImageToTexture()`, then a small shader distorts it.
 
