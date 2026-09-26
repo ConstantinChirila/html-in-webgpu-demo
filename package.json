@@ -1,0 +1,9 @@
+{
+  "name": "html-in-webgpu-demo",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Tiny HTML in Canvas + WebGPU experiment",
+  "scripts": {
+    "start": "npx serve ."
+  }
+}
